@@ -3,18 +3,18 @@ require "bundler/capistrano"
 require "whenever/capistrano"
 require "thinking_sphinx/deploy/capistrano"
 
-set :application, "railscasts.com"
+set :application, "cocoacasts.net"
 role :app, application
 role :web, application
 role :db,  application, :primary => true
 
-set :user, "rbates"
-set :deploy_to, "/var/apps/railscasts"
+set :user, "daiyuan"
+set :deploy_to, "/var/apps/cocoacasts"
 set :deploy_via, :remote_cache
 set :use_sudo, false
 
 set :scm, "git"
-set :repository, "git://github.com/ryanb/railscasts.git"
+set :repository, "git@github.com:iamdaiyuan/railscasts.git"
 set :branch, "master"
 
 namespace :deploy do

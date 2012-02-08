@@ -12,7 +12,7 @@ GIT
     cancan (1.6.3)
 
 GEM
-  remote: http://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     aaronh-chronic (0.3.9)
     abstract (1.0.0)
@@ -101,7 +101,6 @@ GEM
     mime-types (1.16)
     multi_json (0.0.5)
     multipart-post (1.1.0)
-    mysql2 (0.2.6)
     net-ldap (0.1.1)
     net-scp (1.0.4)
       net-ssh (>= 1.99.1)
@@ -245,7 +244,6 @@ DEPENDENCIES
   guard-rspec
   jquery-rails
   launchy
-  mysql2
   nifty-generators
   omniauth (>= 0.2.2)
   paper_trail
